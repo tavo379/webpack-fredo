@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'dosis';
+    src: url('/../fonts/Dosis-Regular.ttf');
+}
+@font-face {
+    font-family: 'operator-mono-italic';
+    src: url('./../fonts/OperatorMono-MediumItalic.otf');
+}
+:root {
+    --fontSize: 1rem;
+    --mainColor: #ffab00;
+    --highlightColor: hwb(190, 35%, 20%);
+    --fontColor: #000000;
+    --fontWeight: 35px;
+    }
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--mainColor);
+    height: 100vh;
+    margin: 0;
+    font-size: 40px;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+#algo {
+    color: #fff;
+    display: flex;
+    width: 100%;
+    height: auto;
+    border: 13px solid #fff;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+    align-items: center;
+    font-size: var(--fontWeight);
+    font-family: 'dosis';
+}
+.imagen {
+    width: 100px;
+    height: auto;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.unPerro {
+    color: var(--fontColor) !important;
+}
